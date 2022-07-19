@@ -27,14 +27,22 @@ InfoSec events. Its main goal is to give to incident responders an easy
 way to collect & process threat intelligence thus improving the incident
 handling processes of CERTs.
 
+General information
+===================
+
+.. toctree::
+   :maxdepth: 1
+
+   user/introduction
+   user/organization
+   user/support
+
 User guide
 ==========
 
 .. toctree::
-   :glob:
    :maxdepth: 1
 
-   user/introduction
    user/hardware-requirements
    user/installation
    user/upgrade
@@ -42,15 +50,14 @@ User guide
    user/bots
    user/intelmqctl
    user/feeds
-   user/FAQ
    user/intelmq-api
    user/intelmq-manager
+   user/FAQ
 
 Connecting with other systems
 =============================
 
 .. toctree::
-   :glob:
    :maxdepth: 1
 
    user/universe
@@ -72,6 +79,7 @@ Getting involved
    dev/harmonization-fields
    dev/release-procedure
    dev/feeds-wishlist
+   Code documentation <source/modules>
 
 Licence
 =======

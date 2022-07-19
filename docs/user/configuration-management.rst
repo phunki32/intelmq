@@ -250,7 +250,7 @@ By default, all of the bots are started when you start the whole botnet, however
 Pipeline Configuration
 ======================
 
-The pipeline configuration defines how the data is exchanges between the bots. For each bot, it defines the source queue (there is always only one) and one or multiple destination queues. This section shows the possibilities and definition as well as examples. The configuration of the pipeline can be done by the |intelmq-manager-github-link|  with no need to intervene manually. It is recommended to use this tool as it guarantees that the configuration is correct. The configuration of the pipelines is done in the ``runtime.conf`` as part of the individiual bots settings.
+The pipeline configuration defines how the data is exchanges between the bots. For each bot, it defines the source queue (there is always only one) and one or multiple destination queues. This section shows the possibilities and definition as well as examples. The configuration of the pipeline can be done by the |intelmq-manager-github-link|  with no need to intervene manually. It is recommended to use this tool as it guarantees that the configuration is correct. The configuration of the pipelines is done in the ``runtime.conf`` as part of the individual bots settings.
 
 Source queue
 ------------
