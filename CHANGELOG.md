@@ -34,7 +34,7 @@ CHANGELOG
   - Fix line recovery and message dumping of the `ParserBot` (PR#2192 by Sebastian Wagner).
     - Previously the dumped message was always the last message of a report if the report contained multiple lines leading to data-loss.
 - `intelmq.lib.pipeline`:
-  - Changed `BRPOPLPUSH` to `BLMOVE`, because `BRPOPLPUSH` has been marked as deprecated by redis in favor of `BLMOVE` (PR#2149 by Sebastian Waldbauer, fixes #1827)
+  - Changed `BRPOPLPUSH` to `BLMOVE`, because `BRPOPLPUSH` has been marked as deprecated by redis in favor of `BLMOVE` (PR#2149 and PR#2240 by Sebastian Waldbauer and Sebastian Wagner, fixes #1827, #2233).
 - `intelmq.bots.parsers.shadowserver._config`:
   - Corrected "AMQP" message_length type (int) and added "STUN" support (PR#2235 by elsif2).
 
